@@ -27,7 +27,6 @@ const SanitizedInput = ({ type, placeholder, onChange, style, className, ...rest
                         onChange={handleChange}
                         style={style}
                         className={className}
-                        {...rest}
                     />
                 );
             case 'area':
@@ -38,7 +37,6 @@ const SanitizedInput = ({ type, placeholder, onChange, style, className, ...rest
                         onChange={handleChange}
                         style={style}
                         className={className}
-                        {...rest}
                     />
                 );
             default:
